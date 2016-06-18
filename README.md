@@ -7,8 +7,10 @@ Config
 ---
 
 linters:
+
     CardinalPercentageWidths:
         # set to true to enable
         enabled: true
         # array of allowed percentages
         values: [0, 50, 66, 25, 100]
+
