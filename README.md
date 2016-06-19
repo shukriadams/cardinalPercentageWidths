@@ -14,3 +14,8 @@ linters:
         # array of allowed percentages
         values: [0, 50, 66, 25, 100]
 
+Use
+---
+This linter is currently not available as a Gem. To use it, place /lib/CardinalPercentageWidths.rb in a folder on your system, then add that folder to your .scss-lint.yml file as follows
+
+    plugin_directories: ['/foo/bar']
